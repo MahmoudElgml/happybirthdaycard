@@ -6,11 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.pvt.myapplication.MainActivity">
 
+    <ImageView
+        android:layout_width="407dp"
+        android:layout_height="514dp"
+        android:src="@drawable/androidparty"
+        android:scaleType="fitXY"
+
+
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
     <TextView
         android:layout_width="324dp"
         android:layout_height="93dp"
         android:layout_marginTop="8dp"
         android:text="Happy birthday,norhan!"
+        android:textColor="#ffdd"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.291"
@@ -25,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="From hamony"
+        android:textColor="#ffdd"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -34,12 +45,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <ImageView
-        android:layout_width="407dp"
-        android:layout_height="514dp"
-        android:src="@drawable/androidparty"
 
-
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>
